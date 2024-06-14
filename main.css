@@ -88,8 +88,8 @@ html {
     margin: 50px auto;
     padding: 50px;
     border-radius: 15px;
-    background: url(BlackWood.png);
-    background-size: 100% 120%;
+    background: url(SlideOut.png);
+    background-size: 100% 99.7%;
     border: #FF2700 double 5px;
     max-width: 100%;
     max-height: calc(100vh - 6rem);
@@ -504,6 +504,46 @@ img {
     top: 0;
 }
 
+.burger{
+    transition: 1.5s;
+    float: right;
+    margin: 30px 40px 0 0;
+    background: none;
+    border: none;
+}
+
+.burger span{
+    display: block;
+    width: 50px;
+    height: 7px;
+    margin-bottom: 8px;
+    background: linear-gradient(to left, #600, #a00, #c00, #FF7070, #c00, #a00, #600);
+    z-index: 1;
+    box-shadow: 0px 0px 2px #000;
+    border: .5px solid #000;
+}
+
+.burger:hover{
+    cursor: pointer;
+    filter: drop-shadow(0px 0px 5px #FF7070);
+    transition: 1.5s;
+}
+
+#top{
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+}
+
+#middle{
+    border-radius: 3px;
+}
+
+#bottom{
+    border-bottom-right-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+
 
 /*=======================================*/
 
@@ -853,6 +893,30 @@ img {
         display: none;
     }
     
+    .burger {
+        align-self: flex-start;
+        margin: -7px 10px 0 0;
+    }
+    
+    .burger span{
+        width: 35px;
+        height: 4px;
+        margin: 7px;
+        background: linear-gradient(to left, #600, #a00, #c00, #FF7070, #c00, #a00, #600);
+        border: .5px solid transparent;
+        filter: drop-shadow(0px 0px 0px #000);
+    }
+    
+    #top{
+        border-top-right-radius: 3.5px;
+        border-top-left-radius: 3.5px;
+    }
+    
+    #bottom{
+        border-bottom-right-radius: 3.5px;
+        border-bottom-left-radius: 3.5px;
+    }
+    
     .overlay{
         background-size: 33%;
     }
@@ -864,17 +928,22 @@ img {
     }
     
     .logo {
-        margin: 0px 0px;
-        width: 85px;
-        height: 70px;
+        margin: 5px 0px;
+        width: 100px;
+        height: 80px;
         left: -20px;
         z-index: 99;
     }
     
     nav {
         padding: 10px 12px;
-        height: 100px;  
+        height: 120px;  
         border-top: 10px solid #d00;
+    }
+    
+    #togo h4{
+        margin: 0px -2%;
+        
     }
     
     h4 {
@@ -899,12 +968,13 @@ img {
     
     .navicon {
         width: 40px;
-        height: 32px;
-        margin: -25px 5px 0px 0px;
+        height: 28px;
+        margin: -15px 5px 0px 0px;
     }
     
     .navicon img{
     }
+    
     
     #rotate {
         width: 50px;
@@ -912,10 +982,10 @@ img {
     }
     
     #map {
-        width: 286px;
-        height: 148px;
+        width: 288px;
+        height: 150px;
         margin: 50px auto;
-        border: 4px double red;
+        border: 5px solid #b00;
         border-radius: 12px;
     }
     iframe {
@@ -1171,6 +1241,18 @@ img {
         margin: auto;
     }
     
+    .waitlist{
+        border-top: none;
+        border-bottom: 10px double #b00;
+    }
+    
+    .waitlist h4{
+        width: 250px;
+        padding: 10px;
+        border-radius: 50px;
+        font-size: 17px;
+    }
+    
     #sisters{
         margin: 50px 0 -140px;
     }
@@ -1193,7 +1275,7 @@ img {
     
     .forno img{
         width: 40%;
-        margin: 25px 0;
+        margin: 55px 0 25px;
     }
     
     footer {
@@ -1223,8 +1305,8 @@ img {
         margin: 15px auto;
         padding: 30px 20px;
         border-radius: 15px;
-        background: url(BlackWood.png);
-        background-size: 100% 130%;
+        background: url(SlideOut.png);
+        background-size: 100% 100%;
         border: #ff2700 double 3px;
         max-width: 100%;
         max-height: calc(100vh - 3rem);
@@ -1244,7 +1326,7 @@ img {
 
 @media (min-width: 1001px) {
     
-    .navicon, #togo, .menumobile{
+    .navicon, #togo, .menumobile, .burger{
         display: none;
     }
     
