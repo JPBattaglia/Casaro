@@ -308,7 +308,7 @@ iframe{
     z-index: 1;
     top: 0;
     right: 0;
-    background: url(cheezy.jpg);
+    background: linear-gradient(to left, #600, #a00, #c00, #FF7070, #c00, #a00, #600);
     background-repeat: repeat;
     background-size: 100% 100%;
     overflow-x: hidden;
@@ -329,20 +329,21 @@ iframe{
     text-align: center;
     text-shadow: 1px 1px 0 #fff, -1px -1px 0 #FFf, 1px -1px 0 #fff, -1px 1px 0 #FFf, 1px 1px 0 #FFf;
     text-decoration: none;
+    filter: drop-shadow(1px 2px 2px #000);
 }
 
 .sidenav a:hover {
-    color: lime;
-    text-shadow: 1px 1px 0 Black, -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
+    color: #fff;
+    text-shadow: 1px 1px 0 Black, -1px -1px 0 red, 1px -1px 0 red, -1px 1px 0 red, 1px 1px 0 red;
 }
 
 .sidenav .closebtn {
     margin: 0 40px;
     padding: 40px 20px 28px 22px;
     position: absolute;
-    top: -10px;
-    right: 0px;
-    font-size: 40px;
+    top: 12px;
+    right: 5px;
+    font-size: 65px;
     text-decoration: none;
 }
 
@@ -1056,8 +1057,8 @@ img {
     
     .sidenav .closebtn {
         margin: 0px;
-        font-size: 32px;
-        padding: 28px 30px 28px 22px;
+        font-size: 42px;
+        padding: 22px 28px 28px 22px;
     }
     
     .navicon {
