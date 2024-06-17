@@ -159,11 +159,10 @@ h1 {
     font-family: 'Rubik';
     text-align: center;
     font-weight: bolder;
-    border-top: 5px solid Black;
-    border-bottom: 5px solid Black;
+    border-top: 5px solid #800;
+    border-bottom: 5px solid #800;
     padding: 10px 0;
     text-shadow: 2px 2px 1px black, -2px -2px 1px black, -2px 2px 1px black, 2px -2px 1px black;
-    filter: drop-shadow(1px 1px 1px #444);
 }
 
 h2 {
@@ -200,20 +199,20 @@ h3 {
 }
 
 h4 {
-    background: none;
+    background: repeating-linear-gradient(to top, #600, #c00, #FF8686, #c00, #600 100%);
     position: absolute;
     top: 50px;
     left: 43%;
     font-weight: bolder;
     margin: 20px auto;
     font-size: 18px;
-    color: #b00;
+    color: #fff;
     padding: 8px 10px;
     width: 200px;
     border-radius: 50px;
     font-family: 'Rubik';
     text-decoration: none;
-    border: 8px double #800;
+    border: 8px double #fff;
     transition: 1s;
     box-shadow: none;
 }
@@ -613,7 +612,7 @@ img {
     }
     
     #togo {
-        margin: 20px 0;
+        margin: 30px 0;
     }
     
     p {
@@ -670,10 +669,10 @@ img {
         background: repeating-linear-gradient(to top, #600, #c00, #FF8686, #c00, #600 100%);
         color: #fff;
         font-size: 15px;
-        padding: 4px 10px;
+        padding: 6px 10px;
         width: 150px;
         position: absolute;
-        top: 40px;
+        top: 50px;
         left: 43%;
         border-radius: 50px;
         border: 5px double #fff;
@@ -703,7 +702,6 @@ img {
         margin: 44px auto;
         width: 100%;
         max-height: 550px;
-        border-bottom: 1px solid #d00;
     }
     
     #casaronb, #casarocastro{
@@ -830,7 +828,7 @@ img {
         text-align: center;
         background: url(CasaroInterior.jpeg);
         background-size: 100% 100%;
-        border: 5px solid #d00;
+        border: 5px solid #a00;
         border-radius: 20px;
         width: 85%;
         margin: 30px auto;
@@ -849,7 +847,7 @@ img {
         font-size: 20PX;
         color: #fff;
         background: #b00;
-        border-top: 5px solid black;
+        border-top: 5px solid #800;
         padding-bottom: 20px;
     }
     
@@ -983,7 +981,7 @@ img {
     
     .burger {
         align-self: flex-start;
-        margin: -7px 10px 0 0;
+        margin: -10px 10px 0 0;
     }
     
     .burger span{
@@ -1031,7 +1029,7 @@ img {
     
     #togo h4{
         margin: 0px -2%;
-        
+        font-size: 13px;
     }
     
     #togo h4:hover{
@@ -1068,9 +1066,6 @@ img {
         margin: -15px 5px 0px 0px;
     }
     
-    .navicon img{
-    }
-    
     
     #rotate {
         width: 50px;
@@ -1084,6 +1079,7 @@ img {
         border: 7px double #d00;
         border-radius: 12px;
     }
+    
     iframe {
         width: 278px;
         height: 140px;
@@ -1105,6 +1101,7 @@ img {
         height: 315px;
         width: 100%;
     }
+    
     h1 {
         font-family: 'Rubik';
         line-height: 22px;
@@ -1113,7 +1110,7 @@ img {
         font-weight: bold;
         margin: -20px auto;
         text-shadow: 1px 1px 1px black, -1px -1px 1px black, -1px 1px 1px black, 1px -1px 1px black;
-        filter: drop-shadow(1px 1px 1px #000);
+        border-bottom: 4px solid #800;
     }
     
     #intro img {
@@ -1165,6 +1162,11 @@ img {
     h2 span{
         font-size: 20px;
         letter-spacing: 1px;
+    }
+    
+    #number h2{
+        margin: 0px;
+        font-size: 26px;
     }
     
     #menu {
@@ -1236,7 +1238,7 @@ img {
         text-align: center;
         background: url(CasaroInterior.jpeg);
         background-size: 100% 100%;
-        border: 3px solid #d00;
+        border: 3px solid #a00;
         border-radius: 20px;
         width: 85%;
         margin: 30px auto;
@@ -1403,7 +1405,7 @@ img {
         font-size: 20PX;
         color: #fff;
         background: #b00;
-        border-top: 3px solid black;
+        border-top: 3px solid #800;
     }
     footer p {
         font-family: 'rubik';
@@ -1633,13 +1635,21 @@ img {
     }
     
     .waitlist h4{
-        border: 8px double #d00;
+        border: 8px double #fff;
     }
     
     .waitlist img{
         display: inline;
         width: 250px;
         margin: 20px 200px -200px;
+    }
+    
+    .waitlist img:first-child{
+        filter: drop-shadow(0px 1px 1px #000);
+    }
+    
+    .waitlist img:nth-child(2){
+        filter: drop-shadow(0px 1px 1px #000);
     }
     
     textarea,
@@ -1746,7 +1756,7 @@ img {
         text-align: center;
         background: url(CasaroInterior.jpeg);
         background-size: 100% 100%;
-        border: 8px solid #d00;
+        border: 6px solid #a00;
         border-radius: 20px;
         margin: 50px auto;
     }
@@ -1789,7 +1799,7 @@ img {
         color: #fff;
         background: #b00;
         padding: 30px;
-        border-top: 5px solid black;
+        border-top: 5px solid #800;
         
     }
     footer p {
