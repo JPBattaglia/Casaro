@@ -132,12 +132,11 @@ html {
 }
 
 h4:hover {
-    color: #f00;
+    color: #fff;
     text-decoration: none;
     transition: 1s;
-    background: #fff;
-    border: 5px double #f00;
-    box-shadow: none;
+    border: 5px double #fff;
+    box-shadow: 0px 1px 5px #800;
 }
 
 h3:hover {
@@ -216,7 +215,7 @@ h4 {
     text-decoration: none;
     border: 8px double #800;
     transition: 1s;
-    box-shadow: 0px 1px 5px #800;
+    box-shadow: none;
 }
 
 #menucastro{
@@ -544,14 +543,14 @@ img {
     margin-bottom: 8px;
     background: linear-gradient(to left, #600, #a00, #c00, #FF7070, #c00, #a00, #600);
     z-index: 1;
-    box-shadow: 0px 0px 2px #000;
+    filter: drop-shadow(2px 2px 2px #000);
     border: .5px solid #000;
 }
 
 .burger:hover{
     cursor: pointer;
-    filter: drop-shadow(0px 0px 5px #FF7070);
     transition: 1.5s;
+    filter: drop-shadow(2px 2px 2px #f00);
 }
 
 #top{
@@ -668,6 +667,8 @@ img {
     }
     
     h4 {
+        background: repeating-linear-gradient(to top, #600, #c00, #FF8686, #c00, #600 100%);
+        color: #fff;
         font-size: 15px;
         padding: 4px 10px;
         width: 150px;
@@ -675,12 +676,12 @@ img {
         top: 40px;
         left: 43%;
         border-radius: 50px;
-        border: 5px double #b00;
+        border: 5px double #fff;
     }
     
     h4:hover{
-        border: 5px double #f00;
-        box-shadow: none;
+        border: 5px double #fff;
+        box-shadow: 0px 0px 5px #f00;
     }
     
     h2 span{
@@ -889,7 +890,31 @@ img {
         top: 40px;
     }
     
+    .waitlist div{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
     
+    .waitlist h4{
+        border: 7px double #fff;
+        box-shadow: none;
+    }
+    
+    .waitlist img{
+        display: inline;
+        width: 200px;
+        margin: 40px 200px -200px;
+    }
+    
+    .waitlist img:first-child{
+        filter: drop-shadow(0px 1px 1px #000);
+    }
+    
+    .waitlist img:nth-child(2){
+        filter: drop-shadow(0px 1px 1px #000);
+    }
     
     .waitlist{
         padding: 20px 0;
@@ -897,14 +922,8 @@ img {
         border-bottom: 15px double #d00;
     }
     
-    .waitlist h4{
-        font-size: 20px;
-        border-radius: 50px;
-        box-shadow: 0px 1px 3px #800;
-    }
-    
     .waitlist h4:hover{
-        box-shadow: none;
+        box-shadow: 0px 0px 5px #f00;
     }
     
     #menumade{
@@ -973,7 +992,7 @@ img {
         margin: 7px;
         background: linear-gradient(to left, #600, #a00, #c00, #FF7070, #c00, #a00, #600);
         border: .5px solid transparent;
-        filter: drop-shadow(0px 0px 0px #000);
+        filter: drop-shadow(1px 2px 1px #000);
     }
     
     #top{
@@ -1012,21 +1031,22 @@ img {
     
     #togo h4{
         margin: 0px -2%;
-        border: 5px double #a00;
+        
     }
     
     #togo h4:hover{
-        border: 5px double #f00;
+        box-shadow: 0px .5px 4px #800;
     }
     
     h4 {
+        background: repeating-linear-gradient(to top, #600, #c00, #FF8686, #c00, #600 100%);
+        color: #fff;
         font-size: 15px;
         padding: 2px;
         width: 120px;
         margin: -10px -5%;
         border-radius: 20px;
-        border: 5px double #d00;
-        box-shadow: 0px .5px 2px #800;
+        border: 5px double #fff;
         transition: 1s;
     }
     
@@ -1322,16 +1342,32 @@ img {
         margin: auto;
     }
     
-    .waitlist{
-        border-top: none;
-        border-bottom: 10px double #d00;
+    .waitlist div{
+        margin-bottom: 150px;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
     }
     
     .waitlist h4{
-        width: 250px;
-        padding: 10px;
+        border: 5px double #fff;
         border-radius: 50px;
-        font-size: 17px;
+    }
+    
+    .waitlist img{
+        width: 175px;
+        margin: -50px 0px -200px;
+    }
+    
+    .waitlist img:first-child{
+        display: none;
+    }
+    
+    .waitlist{
+        padding: 20px 0;
+        border-top: none;
+        border-bottom: 15px double #d00;
     }
     
     #sisters{
@@ -1585,12 +1621,25 @@ img {
         margin: 20px auto;
     }
     
+    .waitlist div{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    
     .waitlist{
         margin-top: 100px;
     }
     
     .waitlist h4{
         border: 8px double #d00;
+    }
+    
+    .waitlist img{
+        display: inline;
+        width: 250px;
+        margin: 20px 200px -200px;
     }
     
     textarea,
