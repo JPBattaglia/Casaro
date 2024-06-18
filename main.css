@@ -897,6 +897,7 @@ img {
     }
     
     .waitlist h4{
+        width: 255px;
         border: 7px double #fff;
         box-shadow: none;
     }
@@ -904,7 +905,7 @@ img {
     .waitlist img{
         display: inline;
         width: 200px;
-        margin: 40px 200px -200px;
+        margin: 40px 100px -200px;
     }
     
     .waitlist img:first-child{
@@ -1853,10 +1854,6 @@ img {
     
     .casaros{
         margin-top: -100px;
-    }
-    
-    #casaronb, #casarocastro{
-       
     }
     
     #map{
