@@ -1168,6 +1168,7 @@ img {
     #number h2{
         margin: 0px;
         font-size: 26px;
+        width: 300px;
     }
     
     #menu {
