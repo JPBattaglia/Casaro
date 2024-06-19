@@ -338,8 +338,6 @@ iframe{
 }
 
 .sidenav .closebtn {
-    margin: 0 40px;
-    padding: 40px 20px 28px 22px;
     position: absolute;
     top: 12px;
     right: 5px;
@@ -347,9 +345,6 @@ iframe{
     text-decoration: none;
 }
 
-.sidenav .closebtn:hover {
-    background: none;
-}
 
 nav {
     background-size: 100% 300%;
@@ -519,7 +514,7 @@ img {
     color: #FF2700;
     padding-top: 25%;
     font-family: 'federant' ;
-    background: #000 url(Pizza.gif) no-repeat center center;
+    background: #000 url(PizzaPie.gif) no-repeat center center;
     background-size: 30%;
     height: 100%;
     width: 100%;
@@ -541,7 +536,7 @@ img {
     width: 50px;
     height: 7px;
     margin-bottom: 8px;
-    background: linear-gradient(to left, #600, #a00, #c00, #FF7070, #c00, #a00, #600);
+    background: linear-gradient(to left, #800, #a00, #c00, #FF7070, #c00, #a00, #800);
     z-index: 1;
     filter: drop-shadow(2px 2px 2px #000);
     border: .5px solid #000;
@@ -550,7 +545,7 @@ img {
 .burger:hover{
     cursor: pointer;
     transition: 1.5s;
-    filter: drop-shadow(2px 2px 2px #f00);
+    filter: drop-shadow(1px 1px 4px #600);
 }
 
 #top{
@@ -602,8 +597,8 @@ img {
     }
     
     .sidenav .closebtn {
-        margin: 0 15px;
-        padding: 30px 27px 28px 22px;
+        right: 50px;
+        font-size: 42px;
     }
     
     .logo {
@@ -1060,7 +1055,8 @@ img {
     .sidenav .closebtn {
         margin: 0px;
         font-size: 32px;
-        padding: 26px 29px 28px 22px;
+        right: 35px;
+        top: 40px;
     }
     
     .navicon {
