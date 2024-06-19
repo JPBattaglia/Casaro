@@ -515,7 +515,7 @@ img {
     padding-top: 25%;
     font-family: 'federant' ;
     background: #000 url(PizzaPie.gif) no-repeat center center;
-    background-size: 30%;
+    background-size: 50%;
     height: 100%;
     width: 100%;
     position: fixed;
@@ -977,15 +977,20 @@ img {
         display: none;
     }
     
+    .burger:hover{
+        transition: 1.5s;
+        filter: drop-shadow(0px 1px 2px #800);
+    }
+    
     .burger {
         align-self: flex-start;
-        margin: -10px 10px 0 0;
+        margin: -10px 8px 0 0;
     }
     
     .burger span{
-        width: 35px;
+        width: 38px;
         height: 3px;
-        margin: 7px;
+        margin: 7.5px;
         background: linear-gradient(to left, #600, #a00, #c00, #FF7070, #c00, #a00, #600);
         border: .5px solid transparent;
         filter: drop-shadow(1px 2px 1px #000);
