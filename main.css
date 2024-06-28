@@ -986,7 +986,7 @@ img {
     .burger {
         align-self: flex-start;
         float: right;
-        margin: -80px 18px 0 0;
+        margin: -80px 12px 0 0;
     }
     
     .burger span{
@@ -1019,7 +1019,7 @@ img {
     }
     
     .logo {
-        margin: 8px 38%;
+        margin: 8px 35%;
         width: 120px;
         height: 105px;
         z-index: 99;
@@ -1033,8 +1033,9 @@ img {
     
     
     #togo h4{
-        margin: 15px -40%;
-        font-size: 13px;
+        margin: 15px -41%;
+        font-size: 11px;
+        width: 95px;
     }
     
     #togo h4:hover{
