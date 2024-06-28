@@ -985,7 +985,8 @@ img {
     
     .burger {
         align-self: flex-start;
-        margin: -10px 8px 0 0;
+        float: right;
+        margin: -80px 18px 0 0;
     }
     
     .burger span{
@@ -1018,21 +1019,21 @@ img {
     }
     
     .logo {
-        margin: 0px;
-        width: 115px;
-        height: 90px;
-        left: -20px;
+        margin: 8px 38%;
+        width: 120px;
+        height: 105px;
         z-index: 99;
     }
     
     nav {
         padding: 10px 12px;
-        height: 120px;  
+        height: 150px;  
         border-top: 10px solid #d00;
     }
     
+    
     #togo h4{
-        margin: 0px;
+        margin: 15px -40%;
         font-size: 13px;
     }
     
@@ -1063,6 +1064,10 @@ img {
         font-size: 32px;
         right: 35px;
         top: 40px;
+    }
+    
+    .sidenav a{
+        font-size: 30px;
     }
     
     .navicon {
@@ -1198,6 +1203,7 @@ img {
         font-size: 16px;
         padding: 8px 17px;
         letter-spacing: 1px;
+        margin-left: 3px;
     }
     
     #number{
@@ -1533,9 +1539,9 @@ img {
     
     .logo{
         left: 0px;
-        width: 190px;
+        width: 175px;
         height: 150px;
-        margin: 15px 0 20px 20px;
+        margin: 15px 0 20px 25px;
     }
     
     #stage {
