@@ -99,7 +99,7 @@ html {
 
 .animated {
     background: url(Distressed.png);
-    background-size: 100% 100%;
+    background-size: 100%;
     background-position: left top;
     margin-bottom: 30px;
     -webkit-animation-duration: 3s;
@@ -514,7 +514,7 @@ img {
     color: #FF2700;
     padding-top: 25%;
     font-family: 'federant' ;
-    background: #000 url(PizzaPie.gif) no-repeat center center;
+    background: url(PizzaPie.gif) no-repeat center center;
     background-size: 50%;
     height: 100%;
     width: 100%;
