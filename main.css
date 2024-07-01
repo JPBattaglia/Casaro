@@ -597,8 +597,12 @@ img {
     }
     
     .sidenav .closebtn {
-        right: 50px;
-        font-size: 42px;
+        right: 40px;
+        top: 25px;
+        font-size: 32px;
+        border: 2px solid #fff;
+        border-radius: 100px;
+        padding: 0px 11px;
     }
     
     .logo {
@@ -988,9 +992,8 @@ img {
     }
     
     .burger {
-        align-self: flex-start;
         float: right;
-        margin: -83px 7px 0 0;
+        margin: -83px 10px 0;
     }
     
     .burger span{
@@ -1033,6 +1036,7 @@ img {
         padding: 10px 12px;
         height: 150px;  
         border-top: 10px solid #d00;
+        max-width: 100%;
     }
     
     
@@ -1074,9 +1078,12 @@ img {
     
     .sidenav .closebtn {
         margin: 0px;
-        font-size: 32px;
-        right: 35px;
-        top: 40px;
+        font-size: 25px;
+        right: 25px;
+        top: 55px;
+        border: 1.5px solid #fff;
+        border-radius: 100px;
+        padding: 0px 9px;
     }
     
     .sidenav a{
@@ -1105,7 +1112,7 @@ img {
     
     iframe {
         width: 278px;
-        height: 140px;
+        height: 145px;
         border-radius: 8px;
     }
     #stage {
