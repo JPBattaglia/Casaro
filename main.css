@@ -638,13 +638,14 @@ img {
     }
     
     .sociallink img {
-        width: 40px;
-        margin: 0px 20px;
+        width: 60px;
+        margin: 0 50px;
         filter: drop-shadow(2px 1px 1px #000);
     }
     
     .sociallink:hover {
-        filter: drop-shadow(1px 1px 3px #fff);
+        filter: drop-shadow(-1px -1px 3px orange);
+        transition: 1s;
     }
     
     #stage {
@@ -1258,7 +1259,8 @@ img {
     }
     
     .sociallink:hover {
-        filter: drop-shadow(1px 1px 1px #fff);
+        filter: drop-shadow(-1px -1px 3px orange);
+        transition: 1s;
     }
     
     #location h2 {
@@ -1482,6 +1484,18 @@ img {
 
 /*=======================================*/
 
+@media (max-width: 700px) and (min-width: 671px) {
+
+    .burger{
+        margin-top: 3px;
+    }
+}
+
+/*=======================================*/
+
+
+/*=======================================*/
+
 @media (min-width: 1001px) {
     
     .navicon, #togo, .menumobile, .burger, #deliver{
@@ -1536,7 +1550,8 @@ img {
     }
     
     .sociallink:hover {
-        filter: drop-shadow(-2px -1px 3px #fff);
+        filter: drop-shadow(-1px -1px 2px #fff);
+        transition: 1s;
     }
     
     #intro{
@@ -1672,6 +1687,10 @@ img {
     
     .waitlist h4{
         border: 8px double #fff;
+    }
+    
+    .waitlist h2{
+        margin-top: 10px;
     }
     
     .waitlist img{
