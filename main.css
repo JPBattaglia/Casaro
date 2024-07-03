@@ -831,8 +831,8 @@ img {
     
     #form {
         text-align: center;
-        background: url(CasaroInterior.jpeg);
-        background-size: 100% 100%;
+        background: url(PizzaOvenRed.jpeg) center;
+        background-size: 120% 100%;
         border: 5px solid #b00;
         border-radius: 20px;
         width: 85%;
@@ -1270,9 +1270,9 @@ img {
     }
     
     #form {
-        text-align: center;
-        background: url(CasaroInterior.jpeg);
-        background-size: 100% 100%;
+        background: url(PizzaOvenRed.jpeg);
+        background-size: 150% 100%;
+        background-position: center;
         border: 3px solid #c00;
         border-radius: 20px;
         width: 85%;
@@ -1529,15 +1529,12 @@ img {
         text-decoration: underline;
     }
     
-    #rotate,
-    .navicon1 {
-        display: none;
-    }
     .sociallink img {
-        width: 50px;
-        margin: 0px 50px;
+        width: 75px;
+        margin: 0px 100px;
         filter: drop-shadow(2px 1px 1px #000);
     }
+    
     .sociallink:hover {
         filter: drop-shadow(-2px -1px 3px #fff);
     }
@@ -1793,8 +1790,8 @@ img {
     #form {
         width: 70%;
         text-align: center;
-        background: url(CasaroInterior.jpeg);
-        background-size: 100% 100%;
+        background: url(PizzaOvenRed.jpeg) center;
+        background-size: 120% 100%;
         border: 6px solid #a00;
         border-radius: 20px;
         margin: 50px auto;
