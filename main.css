@@ -233,6 +233,11 @@ h4 {
     text-shadow: 1px 1px 0 black, -1px -1px 0 black, 1px -1px 0 black, -1px 1px 0 black, 1px 1px 0 black;
 }
 
+#menucastro:hover{
+    box-shadow: none;
+}
+
+
 .waitlist h4{
     position: relative;
     margin: 40px auto;
