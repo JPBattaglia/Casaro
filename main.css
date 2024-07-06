@@ -1205,6 +1205,7 @@ img {
         font-size: 26px;
         width: 250px;
         letter-spacing: .5px;
+        filter: drop-shadow(1px 1px 1px #FF008F);
     }
     
     #menu {
