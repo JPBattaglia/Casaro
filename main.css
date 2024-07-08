@@ -550,7 +550,7 @@ img {
 .burger:hover{
     cursor: pointer;
     transition: 1.5s;
-    filter: drop-shadow(1px 1px 4px #600);
+    filter: drop-shadow(1px 1px 1px red);
 }
 
 #top{
@@ -602,12 +602,12 @@ img {
     }
     
     .sidenav .closebtn {
-        right: 40px;
-        top: 25px;
-        font-size: 32px;
+        right: 45px;
+        top: 30px;
+        font-size: 25px;
         border: 2px solid #fff;
         border-radius: 100px;
-        padding: 0px 11px;
+        padding: 0px 10px;
     }
     
     .logo {
@@ -969,8 +969,8 @@ img {
     }
     
     .burger span{
-        width: 50px;
-        height: 5px;
+        width: 45px;
+        height: 3px;
         margin: 10px 0;
     }
         
