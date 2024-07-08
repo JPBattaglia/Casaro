@@ -1113,7 +1113,7 @@ img {
         height: 160px;
         margin: 50px auto;
         border: 7px double #d00;
-        border-radius: 12px;
+        border-radius: 8px;
     }
     
     iframe {
@@ -1205,7 +1205,7 @@ img {
         font-size: 26px;
         width: 250px;
         letter-spacing: .5px;
-        filter: drop-shadow(1px 1px 1px #FF008F);
+        filter: drop-shadow(1px 1px 1px #F00);
     }
     
     #menu {
