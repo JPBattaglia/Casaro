@@ -208,7 +208,7 @@ h4 {
     font-size: 18px;
     color: #fff;
     padding: 8px 10px;
-    width: 200px;
+    width: 300px;
     border-radius: 50px;
     font-family: 'Rubik';
     text-decoration: none;
@@ -238,9 +238,9 @@ h4 {
 }
 
 
-.waitlist h4{
+.waitlist h4 {
     position: relative;
-    margin: 40px auto;
+    margin: 20px auto;
     width: 300px;
     text-align: center;
     left:0;
@@ -1399,6 +1399,7 @@ img {
         border: 5px double #fff;
         border-radius: 50px;
         width: 265px;
+        margin-bottom: -200px;
     }
     
     .waitlist img{
